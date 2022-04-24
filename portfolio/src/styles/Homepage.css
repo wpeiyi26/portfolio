@@ -1,0 +1,31 @@
+.left {
+    display: flex;
+    justify-content: end;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: var(--color-primary)
+}
+
+.removeMargin h4 {
+    margin-top: 0;
+}
+
+.resumeLink {
+    font-size: var(--text-paragraph);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-primary);
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px grey;
+    padding: 9px 40px;
+}

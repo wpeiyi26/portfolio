@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #464646;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  --text-big: 48px;
+  --text-medium: 24px;
+  --text-small: 18px;
+  --text-tags: 14px;
+  --text-paragraph: 16px;
+
+  --font-weight-regular: 400;
+  --font-weight-black: 900;
+  --font-weight-semibold: 600;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-weight: var(--font-weight-black);
+  font-size: var(--text-big);
+  margin: 0;
+}
+
+h2 {
+  font-weight: var(--font-weight-black);
+  font-size: var(--text-medium);
+  margin: 0;
+}
+
+h3 {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--text-small);
+  margin: 0;
+}
+
+h4 {
+  font-weight: var(--font-weight-light);
+  font-size: var(--text-tags);
+  font-style: italic;
+}
+
+p {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-paragraph);
+  margin: 0;
+}
