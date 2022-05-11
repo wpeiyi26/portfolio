@@ -1,0 +1,63 @@
+.skills h2 {
+    font-size: var(--text-header);
+    font-weight: var(--font-weight-black);
+}
+
+.skills h3 {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-black);
+}
+
+.removeMargin {
+    margin-top: 0 !important;
+}
+
+.skills .react-tabs__tab {
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    width: 32%;
+}
+
+.skills .react-tabs__tab--selected {
+    border: none;
+    border-bottom: 3px solid var(--color-grey);
+}
+
+.skills .react-tabs__tab-list {
+    border: none;
+}
+
+.skills .react-tabs__tab-panel {
+    border: 1.5px solid var(--color-primary);
+    padding: 20px 15px;
+    border-radius: 16px;
+    box-shadow: 1.5px 1.5px var(--color-primary);
+    margin-top: 20px;
+}
+
+.skills .react-tabs__tab-panel p {
+    font-size: 15px;
+}
+
+.skills .react-tabs__tab-panel h4 {
+    margin-top: 0;
+}
+
+.skills .main {
+    position: static;
+    top: 0;
+    bottom: 0;
+    transform: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skills .hobbies {
+    margin-top: 50px;
+}
+
+.skills .skillsTabs {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}

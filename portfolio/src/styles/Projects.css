@@ -1,0 +1,19 @@
+.projects .card-title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--text-small);
+    color: var(--color-primary);
+}
+
+.projects .card {
+    border: 1.3px solid var(--color-black);
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 4px 4px 4px grey;
+    margin-top: 20px;
+}
+
+.projects h4 {
+    color: var(--color-primary);
+}
+
+

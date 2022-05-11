@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row} from "react-bootstrap"
 import styles from '../../styles/Homepage.css'
 import resume from '../../documents/WPY-Resume-2022.png'
 
 function Home() {
     return (
-        <section className="main">
-            <Container className="intro">
+        <section className="home">
+            <Container className="main">
                 <Row>
                     <h4>&lt;h1&gt;</h4>
                     <h3>Hi my name is</h3>
@@ -25,7 +25,9 @@ function Home() {
                     <h4>&lt;/p&gt;</h4>
                 </Row>
                 <Row>
-                    <a href= {resume} target = "_blank" className="resumeLink">RESUME</a>
+                    <Container className="link">
+                        <a href= {resume} target = "_blank" className="resumeLink">RESUME</a>
+                    </Container>
                 </Row>
 
             </Container>

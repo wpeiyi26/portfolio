@@ -2,15 +2,19 @@
   --color-primary: #464646;
   --color-black: #000000;
   --color-white: #FFFFFF;
+  --color-grey: #c4c4c4;
 
   --text-big: 48px;
+  --text-header: 36px;
   --text-medium: 24px;
+  --text-subheading: 20px;
   --text-small: 18px;
   --text-tags: 14px;
   --text-paragraph: 16px;
 
   --font-weight-regular: 400;
   --font-weight-black: 900;
+  --font-weight-bold: 700;
   --font-weight-semibold: 600;
   --font-weight-light: 300;
   --font-weight-medium: 500;

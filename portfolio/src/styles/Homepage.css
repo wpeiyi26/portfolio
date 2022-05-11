@@ -3,6 +3,10 @@
     justify-content: end;
 }
 
+.left h4 {
+    margin-bottom: 0;
+}
+
 .main {
     position: fixed;
     top: 50%;
@@ -17,6 +21,11 @@ h2 {
 
 .removeMargin h4 {
     margin-top: 0;
+}
+
+.home .link {
+    margin-top: 30px;
+    padding: 0;
 }
 
 .resumeLink {
