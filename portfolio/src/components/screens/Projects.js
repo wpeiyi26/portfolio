@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { Container, Row, Card } from "react-bootstrap"
-import styles from '../../styles/Projects.css'
+import '../../styles/Projects.css'
 
 function Projects() {
 

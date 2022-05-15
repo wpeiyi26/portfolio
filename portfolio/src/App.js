@@ -14,6 +14,7 @@ const NaviBarWithRouter = withRouter(NaviBar)
 const App = () => {
   return (
     <Router>
+      <NaviBarWithRouter />
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/skills" component={Skills} />

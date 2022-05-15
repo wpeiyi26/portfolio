@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap"
-import styles from '../../styles/Homepage.css'
+import '../../styles/Homepage.css'
 import resume from '../../documents/WPY-Resume-2022.png'
 
 function Home() {

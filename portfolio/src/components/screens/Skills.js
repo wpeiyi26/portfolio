@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { Container, Row, Button} from "react-bootstrap"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import styles from '../../styles/Skills.css'
+import '../../styles/Skills.css'
 
 import 'react-tabs/style/react-tabs.css';
 

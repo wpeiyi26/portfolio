@@ -1,18 +1,5 @@
-.left {
-    display: flex;
-    justify-content: end;
-}
-
 .left h4 {
     margin-bottom: 0;
-}
-
-.main {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%);
 }
 
 h2 {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap"
-import styles from '../../styles/aboutMe.css'
+import '../../styles/aboutMe.css'
 
 function About() {
     return (
