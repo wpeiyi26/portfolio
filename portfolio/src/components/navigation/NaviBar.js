@@ -3,6 +3,7 @@ import { Component } from 'react';
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/navbar.css'
+import resume from '../../documents/WPY-Resume-2022.png'
 
 class Navibar extends Component {
   render () {
@@ -25,6 +26,7 @@ class Navibar extends Component {
                   <Nav.Link className="navlinks" eventKey="3" as={Link} to="/skills">Skills</Nav.Link>
                   <Nav.Link className="navlinks" eventKey="4" as={Link} to="/projects">Projects</Nav.Link>
                   <Nav.Link className="navlinks" eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
+                  <Nav.Link eventKey="6" href={resume} target = "_blank" className="resumeNav">RESUME</Nav.Link>
               </Nav>
             </Offcanvas.Body>
               
