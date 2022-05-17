@@ -1,0 +1,50 @@
+.navbar {
+    padding-top: 1rem !important;
+}
+
+.navbar-collapse {
+    padding: 0 5rem;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar>.container-fluid {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--color-black) !important;
+    border: none;
+}
+
+.navbar-toggler {
+    font-size: 2.5rem !important;
+}
+
+.offcanvas-header .btn-close {
+    font-size: 1.5rem;
+    width: 3em;
+    height: 3em;
+}
+
+.navbar-nav {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15rem;
+}
+
+.offcanvas-body {
+    height: 100%;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    color: var(--color-black) !important;
+    line-height: 5rem;
+}
+
