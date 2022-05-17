@@ -1,5 +1,21 @@
 .contact a {
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: var(--color-primary);
     cursor: pointer;
+}
+
+.contact .contactFooter a {
+    width: auto;
+}
+
+.contact .contactFooter {
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contact .footerText p {
+    font-size: 13px;
+}
+.contact .footerText {
+    text-align: center;
 }
