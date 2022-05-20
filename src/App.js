@@ -8,6 +8,7 @@ import Projects from './components/screens/Projects'
 import Contact from './components/screens/Contact'
 
 import NaviBar from './components/navigation/NaviBar'
+import SocMed from './components/navigation/socialMedia'
 
 // const NaviBarWithRouter = withRouter(NaviBar)
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
+    <SocMed />
     </BrowserRouter>
     </div>
   )

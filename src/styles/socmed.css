@@ -1,0 +1,29 @@
+.socMed-icons {
+    flex-direction: column;
+    margin: 0;
+}
+
+.socMed-icons a {
+    margin-bottom: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.socMed-wrapper {
+    position: fixed;;
+    width: fit-content !important;
+    margin-left: 13% !important;
+    bottom: 1px;
+}
+
+.vl {
+    width: 50% !important;
+    height: 18vh;
+    border-right: solid 3px var(--color-black);
+}
+
+@media (max-width: 768px) {
+    .socMed-wrapper {
+        display: none;
+    }
+}

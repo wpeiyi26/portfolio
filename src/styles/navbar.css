@@ -2,17 +2,14 @@
     padding-top: 1rem !important;
 }
 
-.navbar-collapse {
-    padding: 0 5rem;
-}
-
 .navbar-brand {
     height: auto;
 }
 
-.navbar>.container-fluid {
+.navbar>.container {
     margin-left: 10px;
     margin-right: 15px;
+    margin-bottom: 5rem;
 }
 
 .navbar-light .navbar-toggler {
@@ -55,5 +52,25 @@
     font-size: 16px;
     margin-top: 2rem;
     border-radius: 10px;
+}
 
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+        justify-content: end !important;
+        margin-top: 15rem;
+    }
+    .navbar-expand-md {
+        justify-content: space-between !important;
+    }
+    .navbar .container {
+        height: 50px;
+        width: 80%;
+        margin-bottom: 8rem;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+    .resumeNav {
+        margin-top: 0;
+    }
 }

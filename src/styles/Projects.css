@@ -16,4 +16,6 @@
     color: var(--color-primary);
 }
 
-
+.projects h2 {
+    font-size: var(--text-header);
+}

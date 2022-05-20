@@ -10,7 +10,7 @@ function Home() {
                 <Row>
                     <h4>&lt;h1&gt;</h4>
                     <h3>Hi my name is</h3>
-                    <h1>Pei Yi Woo</h1>
+                    <h1>Pei Yi</h1>
                     <h2>Graduate Web Developer</h2>
                 </Row>
                 <Row className="left">

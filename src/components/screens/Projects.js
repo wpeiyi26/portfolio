@@ -5,8 +5,8 @@ import '../../styles/Projects.css'
 function Projects() {
 
     return (
-        <section className="main">
-            <Container className="projects">
+        <section className="projects">
+            <Container className="main">
                 <Row>
                     <h4>&lt;h1&gt;</h4>
                     <h2>Projects</h2>

@@ -54,14 +54,28 @@ p {
   margin: 0;
 }
 
+section {
+  position: relative;
+  margin: 0 5%;
+  height: 100%;
+}
+
 .main {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  justify-content: center;
 }
 
 .left {
   text-align: right;
+}
+
+body {
+  padding: 20px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .main {
+    width: 60%;
+  }
 }

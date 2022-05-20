@@ -19,3 +19,7 @@
 .contact .footerText {
     text-align: center;
 }
+
+.contact h2 {
+    font-size: var(--text-header);
+}
