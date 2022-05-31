@@ -1,22 +1,29 @@
 import React from 'react';
 import { Component } from 'react';
-import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap'
+import { Navbar, Container, Nav, Offcanvas, CloseButton } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/navbar.css'
 import resume from '../../documents/WPY-Resume-2022.png'
+
+import { IconContext } from "react-icons";
+import { FiMenu, FiXCircle } from 'react-icons/fi';
 
 class Navibar extends Component {
   render () {
     return (
       <header>
-        <Navbar collapseOnSelect key="md" expand="md">
+        <Navbar collapseOnSelect key="md" expand="md" >
         <Container>
           <Navbar.Brand className="me-auto" as={Link} to="/">
             <a>
               <img src="https://www.pngfind.com/pngs/m/17-173218_gudetama-wallpaper-com-wallpapers-worl-on-background-ipad.png" height="50px"/>
             </a>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+            <IconContext.Provider value={{color: "white", size:"30px" }}>
+              <FiMenu />
+            </IconContext.Provider>
+          </Navbar.Toggle>
           <Navbar.Collapse>
           <Navbar.Offcanvas placement="end">
             <Offcanvas.Header closeButton className="justify-content-end">

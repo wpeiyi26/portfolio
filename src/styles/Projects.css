@@ -1,21 +1,89 @@
 .projects .card-title {
     font-weight: var(--font-weight-bold);
     font-size: var(--text-small);
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .projects .card {
-    border: 1.3px solid var(--color-black);
+    border: 1.5px solid var(--color-secondary);
     border-radius: 16px;
     padding: 22px;
-    box-shadow: 4px 4px 4px grey;
+    box-shadow: 2px 2px var(--color-primary);
     margin-top: 20px;
+    background: transparent;
 }
 
-.projects h4 {
-    color: var(--color-primary);
+.projects .card h4 {
+    color: var(--color-secondary);
+    opacity: 60%;
 }
 
 .projects h2 {
     font-size: var(--text-header);
+}
+
+.projects .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+    .projects .card {
+        width: 45%;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .projects .card .card-body {
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        position: absolute;
+        padding: 20px;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .projects .card .card-header {
+        visibility: visible;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        transition: 1s;
+    }
+
+    .projects .card .card-content {
+        transition: 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .projects .card:hover .card-body .card-content {
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0.25s;
+    }
+
+    .projects .card:hover .card-header {
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .card:nth-child(2n) {
+        margin-left: 5%;
+    }
+
+    .projects .card-wrapper {
+        position: relative;
+    }
 }

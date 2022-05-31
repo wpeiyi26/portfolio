@@ -19,7 +19,7 @@
 .vl {
     width: 50% !important;
     height: 18vh;
-    border-right: solid 3px var(--color-black);
+    border-right: solid 3px var(--color-white);
 }
 
 @media (max-width: 768px) {

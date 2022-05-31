@@ -16,11 +16,14 @@
     font-size: 12px;
     font-weight: var(--font-weight-bold);
     width: 32%;
+    background-color: transparent;
+    color: var(--color-white);
 }
 
 .skills .react-tabs__tab--selected {
     border: none;
-    border-bottom: 3px solid var(--color-grey);
+    border-bottom: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
 }
 
 .skills .react-tabs__tab-list {
@@ -28,7 +31,7 @@
 }
 
 .skills .react-tabs__tab-panel {
-    border: 1.5px solid var(--color-primary);
+    border: 1.5px solid var(--color-secondary);
     padding: 20px 15px;
     border-radius: 16px;
     box-shadow: 1.5px 1.5px var(--color-primary);

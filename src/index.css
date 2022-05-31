@@ -1,8 +1,16 @@
 :root {
-  --color-primary: #464646;
+  /* --color-primary: #464646;
   --color-black: #000000;
   --color-white: #FFFFFF;
-  --color-grey: #c4c4c4;
+  --color-grey: #c4c4c4; */
+
+  --color-primary: #BB86FC;
+  --color-primary-variant: #3700B3;
+  --color-secondary: #03DAC6;
+  --color-background: #121212;
+  --color-error: #CF6679;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
 
   --text-big: 48px;
   --text-header: 36px;
@@ -20,6 +28,10 @@
   --font-weight-medium: 500;
 }
 
+body {
+  background-color: var(--color-background);
+}
+
 * {
   font-family: "Rubik", sans-serif;
 }
@@ -28,30 +40,36 @@ h1 {
   font-weight: var(--font-weight-black);
   font-size: var(--text-big);
   margin: 0;
+  color: var(--color-white);
 }
 
 h2 {
   font-weight: var(--font-weight-black);
   font-size: var(--text-medium);
   margin: 0;
+  color: var(--color-primary);
 }
 
 h3 {
   font-weight: var(--font-weight-semibold);
   font-size: var(--text-small);
   margin: 0;
+  color: var(--color-white);
 }
 
 h4 {
   font-weight: var(--font-weight-light);
   font-size: var(--text-tags);
   font-style: italic;
+  color: var(--color-white);
+  opacity: 60%;
 }
 
 p {
   font-weight: var(--font-weight-regular);
   font-size: var(--text-paragraph);
   margin: 0;
+  color: var(--color-white)
 }
 
 section {
