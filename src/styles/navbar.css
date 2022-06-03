@@ -46,7 +46,7 @@
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: var(--font-weight-medium);
     color: var(--color-white) !important;
     line-height: 5rem;
@@ -54,6 +54,10 @@
 
 .nav-link:hover {
     color: var(--color-primary) !important;
+    text-decoration: none;
+}
+
+.nav-link:focus {
     text-decoration: none;
 }
 

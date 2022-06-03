@@ -28,6 +28,19 @@
     justify-content: center;
 }
 
+.projects .icons-wrapper {
+    margin-top: 1rem;
+}
+.projects .wip-text {
+    color: var(--color-primary);
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.projects .main {
+    margin-bottom: 150px;
+}
+
 @media (min-width: 768px) {
 
     .projects .card {

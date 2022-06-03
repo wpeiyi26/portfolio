@@ -23,3 +23,62 @@
 .contact h2 {
     font-size: var(--text-header);
 }
+
+.contact .form-control {
+    border-radius: 8px !important;
+    font-size: 15px !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    color: var(--color-white);
+}
+
+.contact .form-control:focus {
+    border-color: var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-white);
+}
+
+.contact .form-content {
+    height: 45px;
+}
+
+.contact input[type=submit] {
+    font-size: var(--text-paragraph);
+    background-color: transparent;
+    color: var(--color-white);
+    border-radius: 10px;
+    border: 1.5px solid var(--color-secondary);
+    padding: 9px 40px;
+}
+
+.contact input[type=submit]:hover {
+    border: 1.5px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.contact .message-container .form-control {
+    padding: 1.2rem 1rem;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.contact .form-control:nth-child(odd) {
+    margin-bottom: 15px;
+}
+
+.contact .form-group {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .contact .contactFooter {
+        display: none;
+    }
+
+    .contact .footerText {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
