@@ -92,6 +92,30 @@ body {
   margin: 0;
 }
 
+/* animation-duration: how long an animation should take to complete - default: 0s
+   animation-iteration-count: number of times an animation should run
+   animation-direction: normal, reverse, alternate (forward, then backward), alternate-reverse
+   animation-fill-mode: specifies a style for target element when the animation is not playing (before, after or both) */
+   .div-transition {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes rule gradually changes the animaton from the current style to the new style at certain times
+   to get animation to work, must bind animation to element */
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @media (min-width: 768px) {
   .main {
     width: 60%;

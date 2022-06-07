@@ -29,7 +29,8 @@
 }
 
 .projects .icons-wrapper {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    padding-left: 0;
 }
 .projects .wip-text {
     color: var(--color-primary);
@@ -44,10 +45,11 @@
 @media (min-width: 768px) {
 
     .projects .card {
-        width: 45%;
-        height: 300px;
+        width: 80%;
+        height: 350px;
         position: relative;
         overflow: hidden;
+        margin-bottom: 20px;
     }
 
     .projects .card .card-body {
@@ -55,7 +57,7 @@
         text-align: center;
         transition: 1s;
         position: absolute;
-        padding: 20px;
+        padding: 40px;
         margin: 0;
         top: 50%;
         left: 50%;
@@ -91,12 +93,9 @@
         visibility: hidden;
         opacity: 0;
     }
-    
-    .card:nth-child(2n) {
-        margin-left: 5%;
-    }
 
     .projects .card-wrapper {
         position: relative;
+        padding: 0;
     }
 }

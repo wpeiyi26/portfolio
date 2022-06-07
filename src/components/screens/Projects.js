@@ -13,24 +13,33 @@ function Projects() {
         <section className="projects">
             <Container className="main">
                 <Row>
-                    <h4>&lt;h1&gt;</h4>
-                    <h2>Projects</h2>
+                    <Container className="div-transition" style={{ animationDelay:"200ms"}}>
+                        <h4 className="mb-3">&lt;h1&gt;</h4>
+                        <h2>Projects</h2>
+                    </Container>
                 </Row>
                 <Row className="left">
-                    <h4>&lt;/h1&gt;</h4>
+                    <Container className="div-transition mt-2 mb-3" style={{ animationDelay:"200ms"}}>
+                        <h4>&lt;/h1&gt;</h4>
+                    </Container>
                 </Row>
                 
                 <Container className="card-wrapper">
-                    <Card>
+                    <Card className="div-transition" style={{ animationDelay:"500ms"}}>
                         <Card.Body>
                             <Container className="card-header">
                                 <Card.Title>Portfolio Website</Card.Title>
                                 <h4>Javascript, React.js, Bootstrap, CSS, Figma</h4>
                             </Container>
                             <Container className="card-content">
-                                <p>This fully-responsive website was my first project as a full-stack web-developer.</p>
+                                <p>
+                                    This fully-responsive portfolio website was built mainly using React.js. 
+                                </p>
                                 <br></br>
-                                <p>I explored a lot of animations and transitions which was super fun! This project further improved my front-end and prototyping skills.</p>
+                                <p>
+                                    I explored a lot of animations and transitions which was super fun! 
+                                    This project further improved my front-end and prototyping skills.
+                                </p>
                                 <Container className="icons-wrapper">
                                     <IconContext.Provider value={{color: "white", size: "2em"}}>
                                         <FiFigma/>
@@ -39,16 +48,23 @@ function Projects() {
                             </Container>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="div-transition" style={{ animationDelay:"700ms"}}> 
                         <Card.Body>
                             <Container className="card-header">
                                 <Card.Title>JAPEC Personal CRM</Card.Title>
                                 <h4>Javascript, React.js, Express.js, MongoDB, Bootstrap, CSS, Figma</h4>
                             </Container>
                             <Container className="card-content">
-                                <p>This fully-responsive website was my first project as a full-stack web-developer.</p>
+                                <p>
+                                    JAPEC was a group project to create a personal customer relationship management software for a client.
+                                    Our client wanted it to be sort of an online phone book where he could record contacts quickly and easily.
+                                </p>
                                 <br></br>
-                                <p>I explored a lot of animations and transitions which was super fun! This project further improved my front-end and prototyping skills.</p>
+                                <p>
+                                    I was the front-end lead for the team and also designed the initial prototype. The design is simple with minimal
+                                    distractions for intuitive use. My team worked using the Agile methodology and had client meetings at the end of 
+                                    every sprint to discuss the progression of the product.  
+                                </p>
                                 <Container className="icons-wrapper">
                                     <IconContext.Provider value={{color: "white", size: "2em"}}>
                                         <FiGithub className="me-2"/>
@@ -58,16 +74,24 @@ function Projects() {
                             </Container>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="div-transition" style={{ animationDelay:"900ms"}}>
                         <Card.Body>
                             <Container className="card-header">
                                 <Card.Title>Snacks in a Van</Card.Title>
                                 <h4>Javascript, MongoDB, Express.js, Handlebars.js, CSS</h4>
                             </Container>
                             <Container className="card-content">
-                                <p>This fully-responsive website was my first project as a full-stack web-developer.</p>
+                                <p>
+                                    My first web development group project where we tasked with creating an interface for 
+                                    a food truck company. The website has a route for customers who can place their orders,
+                                    find nearby trucks and track their orders. Another route was for vendors to log in and 
+                                    list their trucks as open along with their location, receive and view orders.
+                                </p>
                                 <br></br>
-                                <p>I explored a lot of animations and transitions which was super fun! This project further improved my front-end and prototyping skills.</p>
+                                <p>
+                                    I did a little of everything for this project and had fun figuring out how to implement
+                                    the requirements into the website in a user-friendly way.
+                                </p>
                                 <Container className="icons-wrapper">
                                     <IconContext.Provider value={{color: "white", size: "2em"}}>
                                         <FiGithub className="me-2"/>
@@ -77,7 +101,7 @@ function Projects() {
                             </Container>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card  className="div-transition" style={{ animationDelay:"1100ms"}}>
                         <Card.Body>
                             <Container className="card-header">
                                 <Card.Title>Welcome to Melbourne!</Card.Title>
@@ -85,9 +109,16 @@ function Projects() {
                                 <p className="wip-text">! Work in Progress !</p>
                             </Container>
                             <Container className="card-content">
-                                <p>This fully-responsive website was my first project as a full-stack web-developer.</p>
+                                <p>
+                                    A little preface, my parents are coming over to Melbourne in October and due to work, I may not be
+                                    able to spend everyday with them :(
+                                </p>
                                 <br></br>
-                                <p>I explored a lot of animations and transitions which was super fun! This project further improved my front-end and prototyping skills.</p>
+                                <p>
+                                    So, I am making a website for them to self-explore around here when I am busy! I plan to include 
+                                    food locations, sightseeing spots, a tram guide alongside little reviews and helpful tips. The locations
+                                    should utilise a Google Maps API just in case they don't trust me :')
+                                </p>
                             </Container>
                         </Card.Body>
                     </Card>
