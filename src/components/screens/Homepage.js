@@ -29,8 +29,7 @@ function Home() {
                     <Container className="div-transition" style={{ animationDelay:"500ms"}}>
                         <h4 className="removeMargin mt-3">&lt;p&gt;</h4>
                         <p className="mt-3"> Passionate developer with a background in design. 
-                            I enjoy making things and making them look pretty after! :)</p>
-                        <br></br>
+                            I enjoy making things and making them look pretty!</p>
                         <p>Always looking to learn new skills in computing and design.</p>
                     </Container>
                 </Row>
@@ -41,7 +40,7 @@ function Home() {
                 </Row>
                 <Row>
                     <Container className="link div-transition" style={{ animationDelay:"600ms"}}>
-                        <a href= {resume} target = "_blank" className="resumeLink">RESUME</a>
+                        <a href= {resume} target = "_blank" rel="noreferrer noopener" className="resumeLink">RESUME</a>
                     </Container>
                 </Row>
 

@@ -42,6 +42,10 @@
     margin-bottom: 150px;
 }
 
+.test-tooltip p {
+    font-size: 12px;
+}
+
 @media (min-width: 768px) {
 
     .projects .card {

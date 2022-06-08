@@ -4,18 +4,13 @@ import { Container, Row } from 'react-bootstrap'
 import '../../styles/socmed.css'
 
 import { IconContext } from "react-icons";
-import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
+import { FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
 
 class SocMedBar extends Component {
   render () {
     return (
         <Container className="socMed-wrapper">
             <Row className="socMed-icons">
-                <a href="https://github.com/wpeiyi">
-                    <IconContext.Provider value={{ size: "30px", color: "white" }}>
-                        <FiGithub />
-                    </IconContext.Provider> 
-                </a>
                 <a href="https://www.linkedin.com/in/pei-yi-woo-9011531b6/">
                     <IconContext.Provider value={{ size: "30px", color: "white" }}>
                         <FiLinkedin />

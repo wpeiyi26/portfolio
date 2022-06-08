@@ -1,13 +1,26 @@
-import { React, useState } from "react";
-import { Container, Row, Card } from "react-bootstrap"
+import { React } from "react";
+import { Container, Row, Card, OverlayTrigger, Tooltip } from "react-bootstrap"
 import '../../styles/Projects.css'
 
-import { FiFigma, FiGithub, FiExternalLink } from 'react-icons/fi'
+import { FiFigma, FiExternalLink } from 'react-icons/fi'
 import { IconContext } from 'react-icons'
 
 function Projects() {
 
-    const [open, setOpen] = useState(false);
+    const renderTooltip = props => (
+        <Tooltip className="test-tooltip" {...props}>
+            <p><b>Testing Account</b></p>
+            <p>Email: japecit@gmail.com</p>
+            <p>Password: 12345678</p>
+        </Tooltip>
+    );
+
+    /* target="_blank" rel="noreferrer noopener"
+       the "rel" attribute sets the relationship between your page and the linked URL
+       the settings prevent a type of phishing - tabnabbing 
+       an exploit that uses the browser'e default behaviour with target="_blank" 
+       to gain partial access to your page through the window.object API.
+       a page you link to could cause your page to redirect to a fake login page. */
 
     return (
         <section className="projects">
@@ -66,10 +79,13 @@ function Projects() {
                                     every sprint to discuss the progression of the product.  
                                 </p>
                                 <Container className="icons-wrapper">
-                                    <IconContext.Provider value={{color: "white", size: "2em"}}>
-                                        <FiGithub className="me-2"/>
-                                        <FiExternalLink />
-                                    </IconContext.Provider>
+                                    <OverlayTrigger placement="bottom" overlay={renderTooltip}>
+                                        <a href="https://japec.herokuapp.com/" target="_blank" rel="noreferrer noopener">
+                                            <IconContext.Provider value={{color: "white", size: "2em"}}>
+                                                <FiExternalLink/>
+                                            </IconContext.Provider>
+                                        </a>
+                                    </OverlayTrigger>
                                 </Container>
                             </Container>
                         </Card.Body>
@@ -93,10 +109,11 @@ function Projects() {
                                     the requirements into the website in a user-friendly way.
                                 </p>
                                 <Container className="icons-wrapper">
-                                    <IconContext.Provider value={{color: "white", size: "2em"}}>
-                                        <FiGithub className="me-2"/>
-                                        <FiExternalLink />
-                                    </IconContext.Provider>
+                                    <a href="https://snacksinavan-group-2-info30005.herokuapp.com/" target="_blank" rel="noreferrer noopener">
+                                        <IconContext.Provider value={{color: "white", size: "2em"}}>
+                                            <FiExternalLink />
+                                        </IconContext.Provider>
+                                    </a>
                                 </Container>
                             </Container>
                         </Card.Body>
