@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap"
 import '../../styles/Homepage.css'
-import resume from '../../documents/WPY-Resume-2022.png'
+import resume from '../../documents/placeholder.png'
 
 function Home() {
     return (
