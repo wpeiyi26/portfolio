@@ -47,17 +47,19 @@ function Projects() {
                             <Container className="card-content">
                                 <p>
                                     This fully-responsive portfolio website was built mainly using React.js. 
+                                    I explored a lot of animations and transitions which was super fun! 
+                                    This project further improved my front-end and prototyping skills. 
                                 </p>
                                 <br></br>
                                 <p>
-                                    I explored a lot of animations and transitions which was super fun! 
-                                    This project further improved my front-end and prototyping skills.
+                                    This website will continuously change throughout the future as I learn.
+                                    I already have plans for the next iteration! :D
                                 </p>
-                                <Container className="icons-wrapper">
+                                {/* <Container className="icons-wrapper">
                                     <IconContext.Provider value={{color: "white", size: "2em"}}>
                                         <FiFigma/>
                                     </IconContext.Provider>
-                                </Container>
+                                </Container> */}
                             </Container>
                         </Card.Body>
                     </Card>

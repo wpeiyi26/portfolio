@@ -92,6 +92,10 @@ body {
   margin: 0;
 }
 
+.app {
+  max-width: 1500px;
+}
+
 /* animation-duration: how long an animation should take to complete - default: 0s
    animation-iteration-count: number of times an animation should run
    animation-direction: normal, reverse, alternate (forward, then backward), alternate-reverse
