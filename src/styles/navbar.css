@@ -111,4 +111,8 @@
     .navbar-nav {
         padding-bottom: 0;
     }
+
+    .navbar-brand img {
+        margin-left: 4em;
+    }
 }

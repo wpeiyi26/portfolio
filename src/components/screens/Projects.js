@@ -100,7 +100,7 @@ function Projects() {
                             </Container>
                             <Container className="card-content">
                                 <p>
-                                    My first web development group project where we tasked with creating an interface for 
+                                    My first web development group project where were we tasked with creating an interface for 
                                     a food truck company. The website has a route for customers who can place their orders,
                                     find nearby trucks and track their orders. Another route was for vendors to log in and 
                                     list their trucks as open along with their location, receive and view orders.

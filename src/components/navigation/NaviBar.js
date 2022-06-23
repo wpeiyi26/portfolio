@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { Navbar, Container, Nav, Offcanvas, CloseButton } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/navbar.css'
-import resume from '../../documents/placeholder.png'
+import resume from '../../documents/WPY_Resume_2022.pdf'
 import logo from '../../documents/Portfolio-logo.png'
 
 import { IconContext } from "react-icons";
@@ -17,7 +17,7 @@ class Navibar extends Component {
         <Container>
           <Navbar.Brand className="me-auto" as={Link} to="/">
             <a>
-              <img className="ms-5" src={logo} height="50px"/>
+              <img src={logo} height="50px"/>
             </a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">

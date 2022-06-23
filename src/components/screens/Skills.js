@@ -61,7 +61,7 @@ function Skills() {
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>   
                                 <p>
-                                    I used React as the frontend framework for one of my final university group projects.
+                                    I used React as the front-end framework for one of my final university group projects.
                                     As compared to Handlebars.js which I used for a previous project, I thoroughly enjoyed React a lot more,
                                     and I can see why it is a popular framework.
                                     <br></br>
@@ -82,13 +82,13 @@ function Skills() {
                                     I picked up Discord.js when I was trying to code up a music bot for my discord channels
                                     when "Groovy" (the most popular music bot on discord) closed down permanently.
                                     The bot is still a work in progress and sadly been pushed aside for the time being but
-                                    but I am hoping to find some time soon to finish this up!
+                                    I am hoping to find some time soon to finish this up!
                                 </p>
                             </TabPanel>
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
-                                    I have been using CSS consistenly for around the past two years and I would say I am pretty
+                                    I have been using CSS consistently for around the past two years and I would say I am pretty
                                     confident with it. I took the opportunity to learn more advanced CSS such as transitions and animations
                                     through building this website which was actually super fun!
                                 </p>
@@ -100,7 +100,7 @@ function Skills() {
                                     and although difficult at first, I appreciated the control it gave the programmer.
                                     <br></br>
                                     C made it easier for me to pick up other programming languages. Throughout my course, I used C to learn about
-                                    algorithms and computer networking through C. The most interesting project I have done is coding a DNS server!
+                                    algorithms and computer networking. The most interesting project I have done is coding a DNS server!
                                 </p>
                             </TabPanel>
                             <TabPanel>
@@ -118,7 +118,7 @@ function Skills() {
                                 <p>
                                     My first ever experience with coding/computing/programming. I had zero knowledge before "Fundamentals of Computing" in
                                     university and I learnt it pretty quickly. It was a good starting point for me. Although I have not used it in a while,
-                                    I do not think I would have a problem pciking it up again.
+                                    I do not think I would have a problem picking it up again.
                                     <br></br>
                                     I also used Python to study data processing utilising jupyter notebooks. Can't say I am great at it right now but
                                     definitely hoping to relearn in the future.
@@ -206,7 +206,7 @@ function Skills() {
                                     In university, I had the opportunity to be the Design Director of the Malaysians of UniMelb society where I 
                                     curated the whole design direction of the society for my fiscal term.
                                     <br></br>
-                                    In my freetime now, I do a lot of calligraphy and sometimes even do freelance work for events like weddings!
+                                    In my free time now, I do a lot of calligraphy and sometimes even do freelance work for events like weddings!
                                 </p>
                             </TabPanel>
                             <TabPanel>
