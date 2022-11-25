@@ -6,6 +6,7 @@ import Skills from './components/screens/Skills'
 import About from './components/screens/aboutMe'
 import Projects from './components/screens/Projects'
 import Contact from './components/screens/Contact'
+import FImage from './components/screens/FImage'
 
 import NaviBar from './components/navigation/NaviBar'
 import SocMed from './components/navigation/socialMedia'
@@ -15,7 +16,7 @@ import SocMed from './components/navigation/socialMedia'
 const App = () => {
   return (
     <div className="app">
-    
+
     <BrowserRouter>
     <NaviBar />
       <Routes>
@@ -24,9 +25,11 @@ const App = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/feature-img" element={<FImage />} /> 
       </Routes>
     <SocMed />
     </BrowserRouter>
+    
     </div>
   )
 }
