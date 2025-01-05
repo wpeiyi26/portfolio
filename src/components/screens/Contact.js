@@ -118,7 +118,7 @@ function Contact() {
                 </Row>
                 <Row className="footerText mt-4 mb-5">
                     <p>
-                        Designed and Built by Pei Yi Woo (2022)
+                        Designed and Built by Pei Yi Woo
                     </p>
                 </Row>
             </Container>

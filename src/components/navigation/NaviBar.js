@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { Navbar, Container, Nav, Offcanvas, CloseButton } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/navbar.css'
-import resume from '../../documents/WPY_Resume_2022.pdf'
+import resume from '../../documents/WPY_CV_2024.pdf'
 import logo from '../../documents/Portfolio-logo.png'
 
 import { IconContext } from "react-icons";

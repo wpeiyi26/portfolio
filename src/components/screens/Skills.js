@@ -36,6 +36,7 @@ function Skills() {
                     <Container className="skillsTabs div-transition" style={{ animationDelay:"500ms"}}>
                         <Tabs>
                             <TabList>
+                                <Tab>SQL</Tab>
                                 <Tab>Javascript</Tab>
                                 <Tab>React.js</Tab>
                                 <Tab>Express.js</Tab>
@@ -52,6 +53,14 @@ function Skills() {
                                 <Tab>Agile Development</Tab>
                             </TabList>
 
+                            <TabPanel>
+                                <h4>Proficiency: Skilled</h4>
+                                <p>
+                                In my current role as a Software Consultant, SQL is the language I use most frequently. 
+                                I work with it daily to write and optimize stored procedures, query complex databases, and ensure efficient data retrieval and manipulation within the application. 
+                                My expertise in SQL enables me to troubleshoot issues, streamline data operations, and ensure the accuracy and performance of the database systems I manage.
+                                </p>
+                            </TabPanel>
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
@@ -88,15 +97,16 @@ function Skills() {
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
-                                    I have been using CSS consistently for around the past two years and I would say I am pretty
-                                    confident with it. I took the opportunity to learn more advanced CSS such as transitions and animations
-                                    through building this website which was actually super fun!
+                                    I have been using CSS consistently and I would say this is where I spend the most time during the web development life cycle.
+                                    The designer in me loves this part!! 
+                                    I took the opportunity to learn more advanced CSS such as transitions and animations
+                                    through building this website which was super fun!
                                 </p>
                             </TabPanel>
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
-                                    Contrary to popular opinion, I really like C. It was the second language I learnt after Python,
+                                    Contrary to popular opinion in uni, I really like C. It was the second language I learnt after Python,
                                     and although difficult at first, I appreciated the control it gave the programmer.
                                     <br></br>
                                     C made it easier for me to pick up other programming languages. Throughout my course, I used C to learn about
@@ -116,12 +126,11 @@ function Skills() {
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
-                                    My first ever experience with coding/computing/programming. I had zero knowledge before "Fundamentals of Computing" in
-                                    university and I learnt it pretty quickly. It was a good starting point for me. Although I have not used it in a while,
-                                    I do not think I would have a problem picking it up again.
+                                    My first ever experience with coding/computing/programming (As it was for most others). Straightforward and powerful, 
+                                    making it easy to get things done quickly and efficiently.
                                     <br></br>
-                                    I also used Python to study data processing utilising jupyter notebooks. Can't say I am great at it right now but
-                                    definitely hoping to relearn in the future.
+                                    I also used Python to study data processing utilising jupyter notebooks. Beautifulsoup and fuzzy matching are the two
+                                    terms that live in my mind rent free although I haven't done python data processing in a while.
                                 </p>
                             </TabPanel>
                             <TabPanel>
@@ -135,13 +144,13 @@ function Skills() {
                                 <h4>Proficiency: Competent</h4>
                                 <p>
                                     MongoDB was the primary database management platform I used for my university projects. 
-                                    I am familiar with the basic set up and usage of MongoDB however, not with the more advanced features it has to offer.
+                                    I am familiar with the basic set up and usage of MongoDB however, I require more studies to get back into noSQL databases.
                                 </p>
                             </TabPanel>
                             <TabPanel>
                                 <h4>Proficiency: Skilled</h4>
                                 <p>
-                                    I used Github for both group and individual projects and I really see the value in version control. I think it is a must-know
+                                    I used Github for both group and individual projects and for work. I really (really really) see the value in version control. Definitely a must-know
                                     for anyone who does programming. I have touched on automatic testing through Github actions and keen to utilise it in my future projects.
                                 </p>
                             </TabPanel>
@@ -237,7 +246,7 @@ function Skills() {
                             </TabPanel>
                             <TabPanel>
                                 <p>
-                                    I love all sorts of games but especially puzzle games! My recent obsessions have been the classic Minesweeper and Spider solitaire.
+                                    I love all sorts of games but especially puzzle games! My recent obsessions have been Balatro and back in my sudoku phase.
                                     I am also a decent opponent in Tetris battles. Aside from puzzles, I do enjoy strategy FPS games as well such as Valorant and COD.
                                     <br></br>
                                     What I am playing now: Pokemon Arceus Legends

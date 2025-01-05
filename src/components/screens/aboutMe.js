@@ -20,13 +20,14 @@ function About() {
                 <Row>
                     <Container className="div-transition" style={{ animationDelay:"350ms"}}>
                     <h4 className="removeMargin mb-4">&lt;p&gt;</h4>
-                    <p>Hello there! My name is Pei Yi and I am a recent computing graduate from the University of Melbourne. 
-                       I have had the opportunity to experience many different fields and have found my calling in computing leading me to pursue a degree in this field.</p>
+                    <p>Hello there! My name is Pei Yi,  a Software Implementation Consultant with 2 years of experience in the supply chain industry. 
+                        In my role, I have had the opportunity to work with Azure Cloud and Microsoft SQL Server, helping to implement effective software solutions to drive real-world results</p>
                     <br></br>
-                    <p>I had so much fun completing my degree and learnt so much. I dabbled in data processing, computer systems, software development and my favourite, web development. 
-                        Alongside my major, I also minored in Digital Technologies which was all about UI/UX design and Human-Computer Interactions.</p>
+                    <p>My journey into tech is rooted in my diverse curiosity—whether it's crafting user-friendly designs through UI/UX or exploring the complexities of human-computer interaction, 
+                        I am always eager to learn and take on new challenges. 
+                        My broad range of interests continues to drive my passion for creating innovative, practical solutions that truly make a difference.</p>
                     <br></br>
-                    <p>Now, I am so excited to start my career as a developer and create more special things for users everywhere! Always on the lookout for exciting opportunities to grow and gain more experience. Also open to exploring different fields!</p>    
+                    <p>Always on the lookout for exciting opportunities to grow and gain more experience. Also open to exploring different fields!</p>      
                     </Container>
                 </Row>
                 <Row className="left">
