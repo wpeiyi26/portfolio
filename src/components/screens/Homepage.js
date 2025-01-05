@@ -16,7 +16,7 @@ function Home() {
                         <h1 className="mt-2 mb-2">Pei Yi</h1>
                     </Container>
                     <Container className="div-transition" style={{ animationDelay:"400ms"}}>
-                        <h2>Graduate Developer</h2>
+                        <h2>Developer</h2>
                     </Container>
                     
                 </Row>
