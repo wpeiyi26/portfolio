@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // Import the screens
 import Homepage from './components/screens/Homepage'
