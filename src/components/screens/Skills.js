@@ -1,5 +1,5 @@
-import { React, useState } from "react";
-import { Container, Row, Button} from "react-bootstrap"
+import * as React from "react";
+import { Container, Row } from "react-bootstrap"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import '../../styles/Skills.css'
 

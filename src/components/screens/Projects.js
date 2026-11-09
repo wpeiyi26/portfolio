@@ -1,8 +1,8 @@
-import { React } from "react";
+import * as React from "react";
 import { Container, Row, Card, OverlayTrigger, Tooltip } from "react-bootstrap"
 import '../../styles/Projects.css'
 
-import { FiFigma, FiExternalLink } from 'react-icons/fi'
+import { FiExternalLink } from 'react-icons/fi'
 import { IconContext } from 'react-icons'
 
 function Projects() {
