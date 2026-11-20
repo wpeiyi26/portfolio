@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import feature from "../../documents/feature_img.png";
 
 function Feature() {

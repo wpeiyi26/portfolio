@@ -1,18 +1,18 @@
-import React, { useRef, useState } from "react";
-import { Container, Row, Button, Form, Col } from "react-bootstrap"
+import * as React from "react";
+import { Container, Row, Form, Col } from "react-bootstrap"
 import '../../styles/Contact.css'
 
 import { IconContext } from "react-icons";
-import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
+import { FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
 
 import emailjs from '@emailjs/browser';
 
 function Contact() {
 
-    /* useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). 
+    /* React.useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). 
        The returned object will persist for the full lifetime of the component. */
-    const form = useRef();
-    const [validated, setValidated] = useState(false);
+    const form = React.useRef();
+    const [validated, setValidated] = React.useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
