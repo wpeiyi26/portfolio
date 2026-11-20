@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "26.x"
-  }
+  },
   "dependencies": {
     "@emailjs/browser": "^5.0.3",
     "@testing-library/jest-dom": "^7.0.1",
